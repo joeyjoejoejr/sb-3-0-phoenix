@@ -21,6 +21,6 @@ module.exports = {
     ]
   },
   postcss: function() {
-    return [require('postcss-cssnext'), require('lost')];
+    return [require('lost'), require('postcss-cssnext')];
   }
 };
