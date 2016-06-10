@@ -10,6 +10,10 @@ const controller = new ScrollMagic.Controller({
   globalSceneOptions: { triggerHook: "onCenter", duration: "200%" }
 });
 
+const bottomController = new ScrollMagic.Controller({
+  globalSceneOptions: { triggerHook: "onEnter", duration: "40%" }
+});
+
 new ScrollMagic.Scene({ triggerElement: '.case-study' })
                .setTween(".case-study__video", { y: "-45%", ease: Linear.easeOut })
                .addTo(controller);
@@ -17,3 +21,11 @@ new ScrollMagic.Scene({ triggerElement: '.case-study' })
 new ScrollMagic.Scene({ triggerElement: '.case-study' })
                .setTween(".case-study__image", { y: "-20%", ease: Linear.easeOut })
                .addTo(controller);
+
+new ScrollMagic.Scene({ triggerElement: '.collections' })
+               .setTween(".collections__image", { y: "-35%", ease: Linear.easeOut })
+               .addTo(controller);
+
+new ScrollMagic.Scene({ triggerElement: '.footer' })
+               .setTween(".footer", { "margin-top": "-80px", ease: Linear.easeOut })
+               .addTo(bottomController);
