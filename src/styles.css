@@ -105,7 +105,6 @@ h2 {
   padding: 7vw;
   position: relative;
   left: 8%;
-  z-index: -10;
 }
 
 .module__title-header {
@@ -436,7 +435,6 @@ h2 {
   position: absolute;
   bottom: 0%;
   left: 15%;
-  z-index: -1;
 }
 
 .case-study__link {
