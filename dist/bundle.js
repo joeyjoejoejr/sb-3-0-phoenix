@@ -72,9 +72,9 @@
 	               globalSceneOptions: { triggerHook: "onEnter", duration: "40%" }
 	});
 
-	new _scrollmagic2.default.Scene({ triggerElement: '.case-study' }).setTween(".case-study__video", { y: "-45%", ease: Linear.easeOut }).addTo(controller);
+	new _scrollmagic2.default.Scene({ triggerElement: '.case-study' }).setTween(".case-study__video", { y: "-20%", ease: Linear.easeOut }).addTo(controller);
 
-	new _scrollmagic2.default.Scene({ triggerElement: '.case-study' }).setTween(".case-study__image", { y: "-20%", ease: Linear.easeOut }).addTo(controller);
+	new _scrollmagic2.default.Scene({ triggerElement: '.case-study' }).setTween(".case-study__image", { y: "-45%", ease: Linear.easeOut }).addTo(controller);
 
 	new _scrollmagic2.default.Scene({ triggerElement: '.collections' }).setTween(".collections__image", { y: "-35%", ease: Linear.easeOut }).addTo(controller);
 

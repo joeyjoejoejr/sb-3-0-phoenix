@@ -15,11 +15,11 @@ const bottomController = new ScrollMagic.Controller({
 });
 
 new ScrollMagic.Scene({ triggerElement: '.case-study' })
-               .setTween(".case-study__video", { y: "-45%", ease: Linear.easeOut })
+               .setTween(".case-study__video", { y: "-20%", ease: Linear.easeOut })
                .addTo(controller);
 
 new ScrollMagic.Scene({ triggerElement: '.case-study' })
-               .setTween(".case-study__image", { y: "-20%", ease: Linear.easeOut })
+               .setTween(".case-study__image", { y: "-45%", ease: Linear.easeOut })
                .addTo(controller);
 
 new ScrollMagic.Scene({ triggerElement: '.collections' })
